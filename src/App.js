@@ -51,7 +51,7 @@ function App() {
     </>
   );
 
-  const isAuth = () => {
+ const isAuth = () => {
     return (
       login === '' &&
         Cookies.get('token_cookie') === undefined ? false : true)
@@ -72,7 +72,9 @@ function App() {
             </Route>
             <Route path="/listing/:slug" exact component={Apartment}/>
             <Route path="/ApartmentsProfile" component={AdProfile} />
-            <Route path="/profile" exact component={UserProfile} />
+            <Route path="/profile">
+              { isAuth() ? <UserProfile /> : <Redirect to="/" /> }
+            </Route>
             <Route path="/create-property" component={CreateProperty}/>
             <Route path="/conditions" component={Conditions}/>
             <Route component={NotFound}/>
