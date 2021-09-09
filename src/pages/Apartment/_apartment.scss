@@ -2,144 +2,39 @@
   margin: 0px;
   padding: 0px;
 }
-/*Top TITLE + PRICE ---- START ----*/
 .title-plus-location{
   width: 80%;
+
+  .main-location{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+    .ico-location{
+      background-image: url("../../assets/images/location.png");
+      background-repeat: none;
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 35px;
+      height: 35px;
+    }
+  }
 }
-.top-pricing{
-  margin: 0;
-  padding: 0;
-  width: 20%;
-}
-.total-price{
-  text-align: right;
-}
-.price-m2{
-  text-align: right;
-}
-.main-location{
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
-}
-.ico-location{
-  background-image: url("../../assets/images/location.png");
-  background-repeat: none;
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 35px;
-  height: 35px;
-}
-/*Top TITLE + PRICE ---- END ----*/
-/*#######################################*/
-/*#######################################*/
-/*Content-INFO ---- START ----*/
 .carousel-box{
   height: 546px;
   overflow: hidden;
   padding: 0;
 }
-.carousel-indicators{
-  display: none;
-}
-
-/*Carousel*/
-
-.carousel-item img{
-  width: 100%;
-}
-
-
-.img-ap-1{
-  background-image: url("https://archello.s3.eu-central-1.amazonaws.com/images/2018/05/17/4.tobiarchitects.1526566679.8889.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-.img-ap-2{
-  background-image: url("https://www.manorhousekitchens.com/wp-content/uploads/2019/05/2017-10-18-20.51.39.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-.img-ap-3{
-  background-image: url("https://cf.bstatic.com/xdata/images/hotel/max1280x900/182265761.jpg?k=4c7758aa6c7e23008101f9b515bdea60c3144d9ca93e6d132912c8f267f1b07e&o=&hp=1");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-.img-ap-4{
-  background-image: url("https://i.pinimg.com/736x/f7/f1/ce/f7f1ceeef9f07b26f192855cfab863e8.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-.img-ap-5{
-  background-image: url("https://archello.s3.eu-central-1.amazonaws.com/images/2018/05/17/5.tobiarchitects.1526566679.9256.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-.list-mini-images ul{
-  display: flex;
-  padding: 0;
-}
-.list-mini-images ul li {
-  width: 150px;
-  height: 110px;
-}
-.item:hover{
-  border: 1px solid black;
-  cursor: pointer;
-}
-
-
-/*Carousel ---- END ----*/
-
-.icoimg{
-  background-image: url("../../assets/images/icoimg.png");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 50px;
-  height: 70px;
-}
-.text-left-contact{
-  font-size: 15px;
-}
-.phone-number-hide{
-  margin-right: 5px;
-  margin-bottom: -2px;
-}
-.show-number{
-  border: 2px solid blue;
-  width: 150px;
-  height: 25px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 5px;
-  font-size: 15px;
-}
-.left-side-details-contact{
-  display: flex;
-  align-items: center;
-}
-.text-responsible{
-  font-size: 12px;
+.top-pricing{
   margin: 0;
   padding: 0;
-}
-.form-group label{
-  font-size: 15px;
-  color: rgb(103, 151, 151);
-}
-label{
-  font-size: 15px;
-  color: rgb(103, 151, 151);
-}
-/*Content-INFO ---- START ----*/
+  width: 20%;
 
-.main-card-list-profileAp{
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  .total-price{
+    text-align: right;
+  }
+}
+.main-content-cards-item-profile .main-card-list{
+  display: flex;
+  justify-content: center;
 }

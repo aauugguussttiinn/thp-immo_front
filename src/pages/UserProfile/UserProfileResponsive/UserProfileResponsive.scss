@@ -1,0 +1,226 @@
+@media screen and (width: 320px){
+  .main-card-list-adm{
+    display: block !important;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .main-card-list-adm .card{
+    margin-left: -70px;
+  }
+  .my-itens{
+    text-align: center;
+  }
+  .bio-row{
+    width: 200px !important;
+  }
+  .details-adm{
+    text-align: center;
+  }
+  .align-details{
+    display: flex;
+    justify-content: center;
+  }
+  .main-card-list{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) !important;
+    margin: 0 !important;
+  }
+  .main-card-list-adm{
+    padding: 0;
+    margin-left: -15px !important;
+  }
+}
+@media screen and (width: 375px){
+  .main-card-list-adm{
+    display: block !important;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .main-card-list-adm .card{
+    margin-left: -40px;
+  }
+  .my-itens{
+    text-align: center;
+  }
+  .bio-row{
+    width: 200px !important;
+  }
+  .details-adm{
+    text-align: center;
+  }
+  .align-details{
+    display: flex;
+    justify-content: center;
+  }
+  .main-card-list{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) !important;
+    margin: 0 !important;
+  }
+  .main-card-list-adm{
+    padding: 0;
+    margin-left: -15px !important;
+  }
+}
+@media screen and (width: 425px){
+  .main-card-list-adm{
+    display: block !important;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .main-card-list-adm .card{
+    margin-left: -15px;
+  }
+  .my-itens{
+    text-align: center;
+  }
+  .bio-row{
+    width: 200px !important;
+  }
+  .details-adm{
+    text-align: center;
+  }
+  .align-details{
+    display: flex;
+    justify-content: center;
+  }
+  .main-card-list{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) !important;
+    margin: 0 !important;
+  }
+  .main-card-list-adm{
+    padding: 0;
+    margin-left: -15px !important;
+  }
+}
+@media screen and (width: 768px){
+  .main-card-list-adm{
+    display: block !important;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .main-card-list-adm .card{
+    margin-left: 55px;
+  }
+  .my-itens{
+    text-align: center;
+  }
+  .bio-row{
+    width: 250px !important;
+  }
+  .details-adm{
+    text-align: center;
+    margin-left: -30px;
+  }
+  .align-details{
+    display: flex;
+    justify-content: center;
+  }
+  .user-heading a{
+    margin-left: -30px;
+  }
+  .user-heading p{
+    margin-left: -27px;
+  }
+  .bio-graph-info{
+    width: 500px;
+  }
+  .main-card-list{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) !important;
+    margin: 0 !important;
+  }
+  .main-card-list-adm{
+    padding: 0;
+    margin-left: -15px !important;
+  }
+}
+@media screen and (width: 1024px){
+  .main-card-list-adm{
+    display: block !important;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .main-card-list-adm .card{
+    margin-left: 40px;
+  }
+  .my-itens{
+    text-align: center;
+  }
+  .bio-row{
+    width: 250px !important;
+  }
+  .details-adm{
+    text-align: center;
+    margin-left: -30px;
+  }
+  .align-details{
+    display: flex;
+    justify-content: center;
+  }
+  .user-heading a{
+    margin-left: -30px;
+  }
+  .user-heading p{
+    margin-left: -27px;
+  }
+  .bio-graph-info{
+    width: 500px;
+  }
+  .main-card-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) !important;
+    margin: 0 !important;
+  }
+  .main-card-list-adm{
+    padding: 0;
+    margin-left: -15px !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (width: 1440px){
+  .main-card-list-adm{
+    display: grid !important;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: -15px !important;
+  }
+  .bio-row{
+    width: 280px !important;
+    margin-left: 20px;
+  }
+
+  .details-adm{
+    margin-left: 10px !important;
+  }
+  .main-card-list{
+    margin: 0px !important;
+    padding: 0;
+  }
+}
+@media screen and (width: 2560px){
+  .main-card-list-adm{
+    display: grid !important;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: -15px !important;
+  }
+  .bio-row{
+    width: 280px !important;
+    margin-left: 20px;
+  }
+
+  .details-adm{
+    margin-left: 10px !important;
+  }
+  .main-card-list{
+    margin: 0px !important;
+    padding: 0;
+  }
+}

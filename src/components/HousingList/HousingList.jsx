@@ -5,7 +5,7 @@ import './_housingList.scss';
 const Housinglist = ({data}) => {
   return (
 
-    <div className='container main-card-list m-5 align-item-center'>{
+    <div className='container main-card-list'>{
       data.map((listing) => {
         return <ApartmentCard listing={listing} key={listing.id} />
       })}

@@ -8,9 +8,10 @@
 @import "pages/Apartment/apartment";
 @import "pages/Login/login";
 @import "pages/Register/register";
-@import "pages/ProfileUser/profileUser.scss";
+@import "pages/Conditions/conditions";
 @import "pages/Apartment/ComponentsStyle/ImagesCarouselmini/_properties.scss";
-@import "../pages/AdmProfile/AdmProfile.scss";
+@import "pages/UserProfile/UserProfile.scss";
+@import "pages/CreateProperty/create-property";
 
 
 
@@ -20,14 +21,12 @@
 @import "components/HousingCard/housingCard";
 @import "components/Jumbotron/jumbotron";
 @import "components/Navbar/navbar";
-@import "components/Footer/footer";
+@import "../components/Footer/footer.scss";
+@import "components/CreatePropertyForm/create-property-form";
 
 
 
 // COMPONENTS RESPONSIVE STYLE IMPORT
 
 // @import "components/HousingList/housingList";
-
-@import "pages/Apartment/ResponsiveApartmentPage/responsive";
 @import "pages/Login/ResponsiveLogin/loginResponsive.scss";
-@import "pages/ProfileUser/ProfuleUserResponsive/ProfileUserResponsive.scss";

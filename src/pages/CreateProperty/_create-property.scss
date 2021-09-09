@@ -1,0 +1,41 @@
+.create-property{
+  max-width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+
+  .create-property-content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: row ;
+
+    .create-property-left{
+      height: 100%;
+      width: 50%;
+      background-image: url('../../assets/images/backgound-create-property.jpeg');
+      background-size: cover;
+      position: relative;
+      z-index: -1;
+
+      h1{
+        position: absolute;
+        right: -200px;
+        top:50%;
+        text-align: center;
+        color: white;
+        font-size: 4rem;
+        filter: opacity(50%) blur(1px);
+        transform: rotate(-90deg)
+      }
+    }
+
+    .create-property-right{
+      width: 50%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

@@ -1,0 +1,101 @@
+.profile-adm-background{
+  background-image: url("https://images.pexels.com/photos/3209045/pexels-photo-3209045.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.helping-recisize-backgroundADM{
+  height: 977px;
+  overflow: scroll;
+}
+.helping-recisize-backgroundADM::-webkit-scrollbar {
+  width: 1em;
+  display: none;
+}
+.profile-nav .user-heading {
+  background: #679afa;
+  color: #fff;
+  border-radius: 4px 4px 0 0;
+  -webkit-border-radius: 4px 4px 0 0;
+  padding: 30px;
+  text-align: center;
+}
+.profile-nav .user-heading.round a  {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border: 10px solid rgba(255,255,255,0.3);
+  display: inline-block;
+}
+.profile-nav .user-heading a img {
+  width: 112px;
+  height: 112px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+.profile-nav .user-heading h1 {
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+.profile-nav .user-heading p {
+  font-size: 12px;
+}
+.profile-nav ul {
+  margin-top: 1px;
+}
+.profile-nav ul > li {
+  border-bottom: 1px solid #ebeae6;
+  margin-top: 0;
+  line-height: 30px;
+}
+.profile-nav ul > li:last-child {
+  border-bottom: none;
+}
+.profile-nav ul > li > a {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  color: #89817f;
+  border-left: 5px solid #fff;
+}
+.profile-nav ul > li > a:hover, .profile-nav ul > li > a:focus, .profile-nav ul li.active  a {
+  background: #f8f7f5 !important;
+  border-left: 5px solid #fbc02d;
+  color: #89817f !important;
+}
+.profile-nav ul > li > a > i{
+  font-size: 16px;
+  padding-right: 10px;
+  color: #bcb3aa;
+}
+.bio-graph-info {
+  color: #89817e;
+}
+.bio-graph-info h1 {
+  font-size: 22px;
+  font-weight: 300;
+  margin: 0 0 20px;
+}
+.bio-row {
+  width: 50%;
+  float: left;
+  margin-bottom: 10px;
+  padding:0 15px;
+}
+.main-content-cards-profile{
+  width: 100%;
+  padding: 0;
+}
+
+.main-card-list-adm{
+  padding: 0;
+  .main-card-list-adm .main-card-list{
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;   
+    flex-wrap: wrap;
+  }
+}
+
+.icon-loading{
+  display: none;
+}
