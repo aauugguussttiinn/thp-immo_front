@@ -1,12 +1,17 @@
 {
   "name": "thp-immo",
   "version": "0.1.0",
+  "engines": {
+    "node": "16.5.0",
+    "npm": "7.19.1"
+  },
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "bootstrap": "^5.1.0",
+    "chokidar": "^2.1.8",
     "js-cookie": "^3.0.1",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.1",
