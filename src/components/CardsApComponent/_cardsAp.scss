@@ -3,7 +3,7 @@
   margin:15px;
   position: relative;
   padding: 0;
-  cursor: pointer;
+  cursor:auto;
   transition: all .5s;
   .img-box{
     width: 100%;
@@ -22,5 +22,19 @@
   &:hover{
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.082);
     transform: translate(-30px,-15px) rotate(-5deg);
+  }
+
+  .delete-btn{
+    cursor: pointer;
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    background-color: red;
+    color:white;
+    z-index: 1000;
+    transition: all .5s;
+    &:hover{
+      background-color: rgb(155, 0, 0);
+    }
   }
 }

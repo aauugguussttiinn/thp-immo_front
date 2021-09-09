@@ -27,6 +27,7 @@ import HamburgerMenu from 'components/HamburgerMenu/HamburgerMenu';
 function App() {
 
   const login = useSelector((state) => state.users.login);
+  const register = useSelector((state) => state.users.register);
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
@@ -53,6 +54,7 @@ function App() {
 
  const isAuth = () => {
     return (
+      register === '' &&
       login === '' &&
         Cookies.get('token_cookie') === undefined ? false : true)
   };

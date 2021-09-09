@@ -62,7 +62,7 @@ const  UserProfile = () => {
               <div className="profile-info col-md-9">
                 <div className="panel">
                   <div className="bio-graph-info details-adm">
-                    <h1>Details</h1>
+                    <h1>Détails</h1>
                     <div className="row align-details">
                       <div className="bio-row">
                           <p>Email : {users.user && user_id ? users.user[user_id-1].email : "waiting"}</p>
@@ -70,7 +70,7 @@ const  UserProfile = () => {
                     </div>
                   </div>
                 </div>
-                <h3 className="my-itens">My items</h3>
+                <h3 className="my-itens">Mes annonces</h3>
                 <div className="container main-content-cards-profile mt-5">
                   <div className="row">
                     <div className="col-sm-12">

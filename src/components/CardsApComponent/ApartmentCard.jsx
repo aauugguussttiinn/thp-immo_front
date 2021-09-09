@@ -1,20 +1,31 @@
+import Cookies from 'js-cookie';
 import React from 'react';
+import { useDispatch } from 'react-redux';
 import { useHistory } from 'react-router-dom';
+import { deleteListing } from 'services/apiManager';
 
 
 const ApartmentCard = ({listing}) => {
   const history = useHistory();
+  const id = Cookies.get('id_cookie')
+  const dispatch = useDispatch()
 
   function truncate (str) {
     return str.length > 10 ? str.substring(0, 50) + "..." : str;
+  }
 
-}
+  const handleDelete = (e,listing_id) => {
+    e.preventDefault();
+    dispatch(deleteListing(listing_id));
+    setTimeout(() => {
+    window.location.reload();      
+    },100)
+  }
 
   return (
     <>
       <div
         className="mx-4 "
-        onClick={() => history.push(`/listing/${listing.id}`)}
       >
         <div className="row">
           <div
@@ -38,6 +49,13 @@ const ApartmentCard = ({listing}) => {
               >
                 Je fonce
               </p>
+              {
+                listing.user_id == id &&
+                <p
+                  className='btn delete-btn'
+                  onClick={(e) => handleDelete(e,listing.id) }
+                >Supprimer</p>
+              }
             </div>
           </div>
         </div>
