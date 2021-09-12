@@ -9,7 +9,7 @@ import { useParams } from 'react-router-dom';
 
 const ApartmentsProfile = () => {
   const slug = useParams();
-  const id = slug.slug - 1;
+  const id = slug.slug;
 
   const dispatch = useDispatch()
   const listings = useSelector(state => state.listings)
